@@ -16,14 +16,13 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .main-container{
   display: flex;
-  width: 700px;
-  height: 400px;
+  width: 750px;
+  height:400px;
   background-color:white ;
-  column-gap: 5px;
+  
 }
 .img-container img{
   width: 300px;
@@ -43,3 +42,44 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 .result-container p{
   font-size: 15px;
 } 
+@media screen and (max-width:560px) {
+  body{
+    height: 100vh !important;
+    width: 100vw !important;
+  /*   background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .main-container{
+    display: flex;
+    width: 100vw;
+    height:100vh;
+    background-color:white ;
+    flex-wrap: wrap;
+    
+  }
+  .img-container img{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+  }
+  .result-container{
+    border: 1px solid rgb(83, 165, 219);
+    margin-top: 18px;
+    padding: 10px;
+    height: 80px;
+  
+  }
+  .header-and-from-container{
+    width: 50vw !important;
+    height: 50vh;
+  }
+  
+}

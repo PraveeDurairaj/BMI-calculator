@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
+import {  Container } from 'react-bootstrap';
 import { useState } from 'react';
 import './App.css';
 import pik from './Assets/bmi photo.svg'
@@ -53,10 +53,10 @@ const App =()=> {
   return (
     <Container fluid>
       <div className=" main-container shadow-lg p-3 mb-5 bg-white rounded">
-        <div className="img-container">
+       <div className="img-container">
           <img src={pik}/>
         </div>
-        <div className="header-and-from-container flex-grow-1">
+       <div className="header-and-from-container flex-grow-1">
           <h3 className='text-primary pt-2'>BMI CALCULATOR</h3>
          {error&& <p className='text-danger'>{error}</p>}
           <div className="input-container d-flex flex-column gap-1 mb-3">
