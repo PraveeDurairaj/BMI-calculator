@@ -50,14 +50,13 @@ const App =()=> {
     setError('')
   }
   return (
-    <Container fluid>
       <div className=" main-container shadow-lg p-3 mb-5 bg-white rounded">
        <div className="img-container">
-          <img src={pik} alt={'gym'}/>
+          <img src={pik} alt={'gym photo'}/>
         </div>
        <div className="header-and-from-container flex-grow-1">
           <h3 className='text-primary pt-2'>BMI CALCULATOR</h3>
-         {error&& <p className='text-danger'>{error}</p>}
+         {error&& (<p className='text-danger'>{error}</p>)}
           <div className="input-container d-flex flex-column gap-1 mb-3">
             <label>Hieght(cm)</label>
             <input type="text" value={hight} onChange={(e) => setHight(e.target.value)} className='p-1' />
@@ -76,7 +75,7 @@ const App =()=> {
           </div>)}
         </div>
       </div>
-    </Container> 
+
   );
 }
 
