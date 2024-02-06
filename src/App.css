@@ -63,7 +63,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   }
   .img-container img{
     width: 90vw;
-    height: 40vh;
+    height: 30vh;
     display: flex;
    
   }
@@ -72,7 +72,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   }
   .header-and-from-container{
     width: 100vw !important;
-    height: 70vh;
+    height: 60vh;
   }
  .input-container{
   width: 90vw;
@@ -81,7 +81,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   margin-right: 10px;
  }
  .button-container{
-  margin: top 10px !important;;
+  margin-top: 20px;
  }
 .input-container label{
   margin: 5px 0;

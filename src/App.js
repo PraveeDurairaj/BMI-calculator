@@ -50,7 +50,7 @@ const App =()=> {
     setError('')
   }
   return (
-      <div className=" main-container shadow-lg p-3 mb-5 bg-white rounded">
+      <div className=" main-container shadow-lg p-3  bg-white rounded">
        <div className="img-container">
           <img src={pik} alt={'gym photo'}/>
         </div>
@@ -63,7 +63,7 @@ const App =()=> {
           </div>
           <div className="input-container d-flex flex-column gap-1 mb-3">
             <label>Wight(Kg)</label>
-            <input type="text"  value={wight} onChange={(e) => setWight(e.target.value)} className='p-1' />
+            <input type="text"  value={wight} onChange={(e) => setWight(e.target.value)} className='p-1 mb-1' />
           </div>
           <div className="button-container">
             <button className='bg-primary border none px-2 py-1 text-light' onClick={calculateBmi}>Calculate BMI</button>
