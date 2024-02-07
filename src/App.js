@@ -31,9 +31,13 @@ const App =()=> {
       else if (bmiValue >= 18.5 && bmiValue < 24.9) {
         setBmiStatus('Normal Weight')
       }
-      else if (bmiValue >= 24.9 && bmiValue < 29.9) {
+      else if (bmiValue >= 24.9 && bmiValue < 50.9) {
         setBmiStatus('OverWeight')
       }
+      else{
+        setBmiStatus('OverWeight')
+      }
+
       setError('')
     }
     else {
